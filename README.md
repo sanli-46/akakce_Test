@@ -1,6 +1,6 @@
 # akakce_Test
 
-<div style="font-size: 18px; color: blue;">User Stories</div>
+## User Stories
 
 | User Story ID | Title | Description | Acceptance Criteria | Preconditions |
 | --- | --- | --- | --- | --- |
