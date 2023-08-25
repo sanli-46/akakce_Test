@@ -1,14 +1,14 @@
 # akakce_Test
-|  US_01  |  |
-|  EXPLANATİON |  |
+# Akakce.com User Stories
 
-|Create User Account	As a user, I should be able to create an account on akakce.com. So I have had a special shopping experience for myself.
-
-|Acceptance Criteria|
-|"Username, surname, e-mail, password, gender, date of birth by entering information by entering an account.When the account is created by entering the correct information, the account is directed to the account verification page.|
-|  PreConditions  |  |
-"	"- The browser to be used for the test (Chrome, Safari or Firefox) must be installed and initiated.
-- Internet access should be provided in the test environment.
-- The current password must have 8 characters; should contain large-small letters and numbers"  |
+| User Story ID | Title | Description | Acceptance Criteria | Preconditions |
+| --- | --- | --- | --- | --- |
+| US_01 | User Account Creation | As a user, I should be able to create an account on akakce.com. This way, I can have a personalized shopping experience. | By entering information like username, surname, email, password, gender, and date of birth, I should be able to create an account. Upon creating an account with correct information, I should be redirected to the account verification page. | - The browser (Chrome, Safari, or Firefox) to be used for testing should be installed and launched. - Internet access should be provided in the test environment. - The valid password must be at least 8 characters long and contain both uppercase and lowercase letters, as well as numbers. |
+| US_02 | Account Verification Check | After creating an account, the user should be able to check if the account verification is successfully completed. | Once the account is created, the user's name should be displayed correctly on the account verification page. |  |
+| US_03 | Logout | As a user, I should be able to log out of my account on akakce.com. This enhances the security of my shopping. | The user should be able to log out of the account. When the user successfully logs out, they should be directed to the login page. | The user must be logged in to the website. |
+| US_04 | Login | As a user, I should be able to log into akakce.com. This way, I won't have to repeatedly enter my preferences into the system. | When the user data is correct, the login process should be successful, and the user should be able to access the system. | The user's account (user's email address and password) must be successfully created and verified. |
+| US_05 | Order List Control | As a user, I should be able to access and control my order list by logging into my account. This prevents unintended purchases. | The user logs into their account and is directed to the order list. If the order list is empty, an appropriate message should be displayed. | The user's account (user's email address and password) must be successfully created and verified. System login is required for order list control. |
+| US_06 | Message Box Control | As a user, I should be able to access and manage my message box by logging into my account. This way, I won't miss personalized campaigns and notifications. | The user logs into their account and is directed to the message box. If the message box is empty, an appropriate message should be displayed. | The user's account (user's email address and password) must be successfully created and verified. System login is required for message control. |
+| US_07 | Account Deletion | As a user, I should be able to delete my account. This ensures the protection of my personal data. | When the user is logged into their account, they should be able to delete their account from the system. During the account deletion process, the account should be successfully deleted when the correct password is entered. | The user's account (user's email address and password) must be successfully created and verified. Account deletion cannot be performed without logging into the account to be deleted. |
 
 
